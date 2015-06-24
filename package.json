@@ -1,5 +1,5 @@
 {
-  "name": "compute-givens-rotation",
+  "name": "calculate-givens-rotation",
   "version": "1.0.0",
   "description": "Compute the components of a Givens rotation matrix in order to zero an element",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/scijs/compute-givens-rotation.git"
+    "url": "git://github.com/scijs/calculate-givens-rotation.git"
   },
   "keywords": [
     "linear-algebra",
@@ -19,9 +19,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "almost-equal": "^1.0.0",
     "chai": "^3.0.0",
     "mocha": "^2.2.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

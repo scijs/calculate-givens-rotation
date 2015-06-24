@@ -7,7 +7,7 @@ Compute the components of a Givens rotation matrix in order to zero an element
 
 ## Introduction
 
-This module implements Algorithm 5.1.3 of Golub and Van Loan's *Matrix Computations, 4th Edition*.
+This module implements Algorithm 5.1.3 of Golub and Van Loan's *Matrix Computations, 4th Edition*. The goal is to calculate the components of a rotation matrix that, when applied to vector `[a,b]^T`, will zero out the second component.
 
 ```
 [  c  s  ] T     [ a ]     [ r ]

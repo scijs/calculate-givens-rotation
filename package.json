@@ -1,6 +1,6 @@
 {
   "name": "calculate-givens-rotation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compute the components of a Givens rotation matrix in order to zero an element",
   "main": "lib/index.js",
   "scripts": {
